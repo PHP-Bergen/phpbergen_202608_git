@@ -4,7 +4,7 @@
 
 * [Basics mastered, now what](beyond_basic.md)
 * [Branching and merging](branching.md)
-* [Work flows](page1.md)
+* [Work flows](workflows.md)
 * [Problem-solving](page2.md)
 
 ### [> Home](../README.md)
