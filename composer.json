@@ -1,11 +1,15 @@
 {
-  "name": "phpbergen/topic",
+  "name": "phpbergen/git",
   "description": "PHP talk and demonstration",
   "homepage": "https://github.com/PHP-Bergen",
   "authors": [
     {
       "name": "Stein Magne Bjørklund",
       "email": "steinmb@smbjorklund.com"
+    },
+    {
+      "name": "Jørn Fauske",
+      "email": "jorn@fauske.no"
     }
   ],
   "type": "project",
@@ -14,6 +18,10 @@
   "require": {
     "php": ">=8.5"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^13.3.1",
+    "phpstan/phpstan": "^2.2.9"
+  },
   "config": {
     "platform": {
       "php": "8.5"
@@ -21,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "phpbergen\\TalkTopic\\": "src/"
+      "phpbergen\\Git\\": "src/"
     }
   },
   "autoload-dev": {
