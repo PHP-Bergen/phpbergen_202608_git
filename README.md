@@ -7,6 +7,7 @@
 You now have mastered the basics. What have we learned?
 
 * [Topic index](docs/index.md)
+* [PHP Bergen 2026 presentations](docs/presentations_2026.md)
 
 ## References
 
