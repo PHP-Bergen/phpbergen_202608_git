@@ -13,11 +13,8 @@ final readonly class User
     ) {
     }
 
-    public function age($now = new DateTimeImmutable()): int
+    public function age(DateTimeImmutable $now = new DateTimeImmutable()): int
     {
-        if ($now === null) {
-            $now = new DateTimeImmutable();
-        }
         return $now->diff($this->born)->y;
     }
 }
