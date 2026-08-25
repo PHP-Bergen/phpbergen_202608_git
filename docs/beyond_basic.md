@@ -27,6 +27,7 @@ flowchart LR
 * `git status` 
 * `git log`
 * `git blame`
+* `git reflog`
 
 ## Undoing Commits & Changes
 
@@ -39,6 +40,7 @@ Git ignore (`.gitignore`)
 
 ### Git hooks
 
+client-side:
 ```txt
 pre-commit
 prepare-commit-msg
@@ -47,6 +49,13 @@ post-commit
 
 post-checkout
 pre-rebase
+```
+
+server-side:
+```
+pre-receive
+update
+post-receive
 ```
 
 ### [> Index](index.md)
