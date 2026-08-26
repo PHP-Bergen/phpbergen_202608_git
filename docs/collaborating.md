@@ -31,7 +31,15 @@ flowchart LR
     remote -->|Get others' commits| history
 ```
 
+## Updating local repository
+
+Is `git pull` and `git fetch` the same?
+
 
 ## Pull requests
+
+![pr.svg](./img/pr.svg)
+
+Demo of Github and Gitlab.
 
 ### [> Index](index.md)
