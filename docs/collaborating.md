@@ -16,6 +16,22 @@ flowchart TB
     shared <-->|"pull and push"| casey
 ```
 
+## Structure
+
+```mermaid
+flowchart LR
+    files["Your files<br/>Edit your work"]
+    staged["Ready to save<br/>git add"]
+    history["Project history<br/>git commit"]
+    remote["Shared copy<br/>GitHub / GitLab"]
+
+    files -->|Choose changes| staged
+    staged -->|Save a snapshot| history
+    history -->|Share commits| remote
+    remote -->|Get others' commits| history
+```
+
+
 ## Pull requests
 
 ### [> Index](index.md)

@@ -2,6 +2,8 @@
 
 Git is a huge topic. Git is flexible, customizable, and very powerful. Most people will never learn everything about Git. Mostly because they do not have to.
 
+Hundreds of thousens of tools support Git some way of another. People use Git to varius things, have varius workflows, company policies, programming languages, operating systems, and more. We wil mostly here cover the git command. The most important thing is to understand the how and the why when it comes to Git.
+
 ## Structure
 
 ```mermaid
@@ -9,12 +11,9 @@ flowchart LR
     files["Your files<br/>Edit your work"]
     staged["Ready to save<br/>git add"]
     history["Project history<br/>git commit"]
-    remote["Shared copy<br/>GitHub / GitLab"]
 
     files -->|Choose changes| staged
     staged -->|Save a snapshot| history
-    history -->|Share commits| remote
-    remote -->|Get others' commits| history
 ```
 
 ## Saving changes
