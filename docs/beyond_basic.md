@@ -1,6 +1,6 @@
 # Beyond basics
 
-Git is a huge topic. Git is flexible, customizable, and very powerful. Most people will never learn everything about Git. Mostly it is because they do not need to.  
+Git is a huge topic. Git is flexible, customizable, and very powerful. Most people will never learn everything about Git. Mostly because they do not have to.
 
 ## Structure
 
@@ -20,9 +20,9 @@ flowchart LR
 ## Saving changes
 
 * Git ignore (`.gitignore`)
-* Git stash
+* `git stash`
 
-## Inspecting (
+## Inspecting repository
 
 * `git status` 
 * `git log`
@@ -31,31 +31,13 @@ flowchart LR
 
 ## Undoing Commits & Changes
 
+Git does not really have an undo function. That goes against the whole idea of version control.
+
+`git revert` - safest way.
+`git rm` is to remove tracked files from the Git index.
 
 ## Security
 
 Git ignore (`.gitignore`)
-
-## Automation
-
-### Git hooks
-
-client-side:
-```txt
-pre-commit
-prepare-commit-msg
-commit-msg
-post-commit
-
-post-checkout
-pre-rebase
-```
-
-server-side:
-```
-pre-receive
-update
-post-receive
-```
 
 ### [> Index](index.md)
