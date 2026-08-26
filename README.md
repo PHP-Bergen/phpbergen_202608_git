@@ -4,10 +4,12 @@
 
 # Git part two – PHP Bergen
 
-You now have mastered the basics. What have we learned?
+You now have mastered the basics. What have we learned? A presentation about good habits, workflows and how to get out of basic problems.
 
 * [Topic index](docs/index.md)
 * [PHP Bergen 2026 presentations](docs/presentations_2026.md)
+
+![Install Git](docs/img/yes.png)
 
 ## References
 
