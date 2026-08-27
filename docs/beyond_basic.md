@@ -34,7 +34,7 @@ Git does not really have an undo function. That goes against the whole idea of v
 
 * `git revert` - safest way.
 * `git rm` is to remove tracked files from the Git index.
-* `git reflog`
+* `git reflog` - your local history.
 
 ## Security
 
