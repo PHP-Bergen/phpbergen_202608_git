@@ -8,5 +8,6 @@
 * [Problem-solving](./problems.md)
 * If we have time: [Automating Git](./automation.md)
 * If we have time: [Extending workflows further](./extending_workflows.md)
+* Inven more thing
 
 ### [> Home](../README.md)
