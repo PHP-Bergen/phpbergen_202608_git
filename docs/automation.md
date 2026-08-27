@@ -2,6 +2,9 @@
 
 ### Git hooks
 <<<<<<< Updated upstream
+
+conflict2
+
 =======
 ###
 ### 
