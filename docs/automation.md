@@ -1,6 +1,11 @@
 # Automating Git
 
 ### Git hooks
+<<<<<<< Updated upstream
+=======
+###
+### 
+>>>>>>> Stashed changes
 
 Different operations create fire off different hooks/events. This allows you to trigger different actions related to the changes made to a repository.
 
