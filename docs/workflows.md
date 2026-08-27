@@ -22,12 +22,18 @@ Write the motivation for the change, NOT what you changed.
 * Keep branches small/narrow
 * Squash commits before merging.
 
+### tags (versions)
+
+* Are human-friendly lightweight tags for a longer SHA.
+  However, there are sematic versioning rules you should follow.
+
+![versioning.jpeg](img/versioning.jpeg)
+
 ## Bad habits
 
 * Commits too large.
 * Bad commit messages.
 * Leave your project in a dirty state.
 * Forget to push commits and or branches.
-
 
 ### [> Index](index.md)
