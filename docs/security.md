@@ -19,3 +19,11 @@ Note: .gitignore —files are cascading. What does that actually mean?
 * Change password
 * Change access token
 * Last resort, remove a rewrite history.
+
+## Production safe
+
+Allow you safely to roll back changes.
+
+![disaster_girl.png](img/disaster_girl.png)
+
+### [> Index](index.md)
