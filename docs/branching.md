@@ -29,4 +29,12 @@ Used as a safe place to test or work on changes separate to the main (master) br
 
 ![rebase.svg](img/rebase.svg)
 
+### Types of merge
+
+* fast-forward merge (no merge commit)
+* squash merge
+* three-way merge (standard)
+  ![three-way-merge.svg](img/3way-merge.svg)
+
+
 ### [> Index](index.md)
