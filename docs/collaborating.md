@@ -15,7 +15,7 @@ flowchart LR
     remote -->|Get others' commits| history
 ```
 
-## Using a sentral system to share code
+## Using a centralized system to share code
 
 ```mermaid
 flowchart TB
@@ -33,15 +33,18 @@ flowchart TB
     shared <-->|"pull and push"| casey
 ```
 
+Create MR/PR in your centralized system.
 
 ## Updating local repository
 
 Is `git pull` and `git fetch` the same?
 
+## Pull request (PR), Merge request (MR) and Issues
 
-## Pull requests
+* What is the difference between a pull request (PR) and a merge request (MR)?
+* What is the difference between a PR and an issue?
 
-![pr.svg](./img/pr.svg)
+![pr.svg](img/pr.svg)
 
 Demo of Github and Gitlab.
 

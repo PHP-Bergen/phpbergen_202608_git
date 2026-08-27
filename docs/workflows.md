@@ -29,11 +29,5 @@ Write the motivation for the change, NOT what you changed.
 * Leave your project in a dirty state.
 * Forget to push commits and or branches.
 
-## Pull request (PR), Merge request (MR) and Issues
-
-* What is the difference between a pull request (PR) and a merge request (MR)?
-* What is the difference between a PR and an issue?
-
-![pr.svg](img/pr.svg)
 
 ### [> Index](index.md)

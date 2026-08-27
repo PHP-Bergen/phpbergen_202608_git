@@ -32,11 +32,13 @@ flowchart LR
 
 Git does not really have an undo function. That goes against the whole idea of version control.
 
-`git revert` - safest way.
-`git rm` is to remove tracked files from the Git index.
+* `git revert` - safest way.
+* `git rm` is to remove tracked files from the Git index.
+* `git reflog`
 
 ## Security
 
-Git ignore (`.gitignore`)
+* Git ignore (`.gitignore`)
+* Secrets
 
 ### [> Index](index.md)
