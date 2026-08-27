@@ -1,6 +1,6 @@
-# Work flows
+# Workflows
 
-There is easy to get tangled up in the techincal stuff around Git, Git-tools, and technical issues but there is some tasks that no tools can help with. Human habits.  
+It is easy to get tangled up in all the technical stuff around Git, Git-tools, editors/IDE, but there are some tasks that about no tools can help you with. Human habits.
 
 ## Good habits
 
@@ -8,18 +8,32 @@ There is easy to get tangled up in the techincal stuff around Git, Git-tools, an
 * Push often
 * Pull often
 * Pull before pushing
-* The commit message
+
+### The commit message
+
+Write the motivation for the change, NOT what you changed.
+
+![git_log_message.jpg](img/git_log_message.jpg)
+
+### Create your own branch
+
+![branching.png](img/branching.png)
+
+* Keep branches small/narrow
+* Squash commits before merging.
 
 ## Bad habits
 
 * Commits too large.
 * Bad commit messages.
 * Leave your project in a dirty state.
-* Do not push commits.
+* Forget to push commits and or branches.
 
 ## Pull request (PR), Merge request (MR) and Issues
 
 * What is the difference between a pull request (PR) and a merge request (MR)?
 * What is the difference between a PR and an issue?
+
+![pr.svg](img/pr.svg)
 
 ### [> Index](index.md)
